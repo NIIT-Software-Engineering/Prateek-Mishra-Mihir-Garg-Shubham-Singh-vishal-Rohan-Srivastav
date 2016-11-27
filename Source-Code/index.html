@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title></title>
+    <meta name="description" content="">
+    
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+    
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+    
+<
+    
+  </head>
+  <style type="text/css">
+     body h2{
+     	margin-top: 50px;
+     	margin-left:10px;
+     }
+  </style>
+  <body>
+  
+  <!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+
+<div class="container" id="main">
+
+  <div class="navbar navbar-fixed-top">
+   <div class="container">
+
+       <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+
+   <a class="navbar-brand" href="index.html">CAB</a>
+
+   <div class="nav-collapse collapse navbar-responsive-collapse">
+    <ul class ="nav navbar-nav pull-left">
+     <li class="active">
+       
+        <a href="index.html">Book Your Ride</a>
+       
+     </li>        
+
+
+     <li>
+     <a href="cabsharing.html">Share Cab</a>
+     </li>
+     
+      <li>
+        <a href="automated booking.html">Automated Booking </a>
+     </li>
+
+     <ul class ="nav navbar-nav pull-right">
+     <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class= "glyphicon glyphicon-user"></span>  My Account</a> 
+          <ul class="dropdown-menu">
+
+           
+
+          <li>
+              <a href="updateprofile.html"></span> Profiles & Settings </a>
+          </li>
+
+          <li class="divider"></li>
+
+          <li>
+              <a href="yourrides.html"> Your Rides</a>
+          </li>
+          
+          <li>
+              <a href="rateest.html">Rate Est.</a>
+          </li>
+
+          <li> 
+           <a href="#">Payments</a>
+          </li>
+         
+          <li class="divider"></li>
+
+          <li>
+              <a href="#"> </span>  Sign out</a>
+          </li>
+
+
+          </ul>
+          </li>
+    </ul>
+   </ul>
+
+   </div><!-- end nav-collapse -->
+  
+  </div><!-- end container -->
+    
+  </div><!-- end navbar -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+
+         <h2>Book Now</h2>
+          <form action="" method="">
+          
+
+            <div class="form-group">
+              <label for="Sourcedestination"  class="col-sm-2 control-label">Source</label>
+              <div class="col-sm-12">
+              <input type="Text" class="form-control" id="Sourcedestination" placeholder="Your current location">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="Preferred Destination"  class="col-sm-2 control-label">Destination</label>
+              <div class="col-sm-12">
+              <input type="Text" class="form-control" id="Preferred Destination" placeholder="Your desired location ">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="Cab Type"  class="col-sm-2 control-label">Type of Cab</label>
+              <div class="col-sm-12">
+              <input type="Text" class="form-control" id="Cab Type" placeholder="5,6,7 seater etc.">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="journeydate"  class="col-sm-2 control-label">Date of Journey</label>
+              <div class="col-sm-12">
+              <input type="Text" class="form-control" id="journeydate" placeholder="dd/mm/yyyy">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="Pickup Time"  class="col-sm-2 control-label">Pickup Time</label>
+              <div class="col-sm-12">
+              <input type="Text" class="form-control" id="Pickup Time" placeholder="Enter the pickup time from the Source">
+              </div>
+            </div>
+
+           <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox">Remember me
+                </label>
+             </div>
+            </div>
+           </div> 
+
+            <div class="form-group">
+               <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Submit</button>
+               </div>
+            </div>      
+
+          </form>
+      </div>
+    </div>
+  </div>  
+  
+  
+ 
+
+
+<footer>
+  
+</footer>
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#journeydate").datepicker();
+  });
+  </script>
+
+    
+
+  <!-- All Javascript at the bottom of the page for faster page loading -->
+    
+  <!-- First try for the online version of jQuery-->
+  
+  
+  <!-- If no online access, fallback to our hardcoded version of jQuery -->
+  
+  
+  <!-- Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="includes/js/script.js"></script>
+  
+  </body>
+</html>
+
